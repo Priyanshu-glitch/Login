@@ -1,0 +1,129 @@
+body{
+  font-family: 'Noto Serif', serif;
+
+}
+.container h1{
+  display: inline-block;
+  padding: 10px 0 0 2rem;
+  color: white;
+}
+
+.topnav1{
+  margin-left: 50rem;
+  position: relative;
+}
+.topnav2{
+  margin-left: 1rem;
+  position: relative;
+}
+.container a{
+text-decoration: none;
+color: white;
+color: white;
+font-size: 1.5rem;
+}
+.container a:hover{
+  text-decoration: underline;
+  color: black;
+}
+.bg{
+  width: 100%;
+  z-index: -1;
+  opacity: 0.8;
+  position: absolute;
+}
+.login{
+  font-size: 2rem;
+    border-radius: 5px;
+    border: 2px black solid;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   flex-direction: column;
+   padding: 10px 0;
+   border: 0;
+   margin: 1rem;
+   text-align: center;
+   font-family: 'Noto Serif', serif;
+   cursor: pointer;
+}
+.Section h1{
+  font-family: 'Noto Serif', serif;
+  font-size: 2rem;
+  text-decoration: underline;
+  text-align: center;
+  color:white;
+  padding: 3rem;
+  margin: 2rem 3rem 1rem 3rem;
+}
+.Section h3{
+  font-family: 'Noto Serif', serif;
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  color:green;
+  padding: 0 1rem 2rem 1rem;
+  margin: 0 3rem 1rem 3rem;
+}
+.btn{
+  font-family: 'Noto Serif', serif;
+  font-size: 2rem;
+  text-align: center;
+  color:white;
+  background: purple;
+  margin-top: 1rem;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.btn:hover{
+  background: black;
+}
+.topnav1{
+  margin-left: 50rem;
+  position: relative;
+}
+.topnav2{
+  margin-left: 1rem;
+  position: relative;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .topnav1{
+    display: none;
+  }
+  .topnav2{
+    display: none;
+  }
+  .login{
+    width: 20rem;
+  }
+  .bg{
+    width:132%;
+    height: 120%;
+  }
+  .Section h1{
+    font-family: 'Noto Serif', serif;
+    font-size: 1.4rem;
+    text-decoration: underline;
+    text-align: center;
+    color:white;
+    padding: 2rem;
+    margin: 2rem 3rem 1rem 3rem;
+  }
+  .Section h3{
+    font-family: 'Noto Serif', serif;
+    font-size: 1rem;
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: center;
+    color:green;
+    padding: 0 1rem 2rem 1rem;
+    margin: 0 1rem 1rem 1rem;
+  }
+  .container h1{
+    display: block;
+    padding: 1.5rem 1rem 0 4.5rem;
+    color: white;
+  }
+}
